@@ -1,4 +1,5 @@
-import { Nav } from "../Nav/Nav";
+//  We imported our Nav componenet
+import { Nav } from "../Nav/Nav"; 
 const Footer = (props) => {
      return (
           <footer>

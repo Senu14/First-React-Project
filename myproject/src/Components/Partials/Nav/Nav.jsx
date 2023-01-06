@@ -1,3 +1,4 @@
+// We have our Array or list under ArrNav
 const ArrNav = [
      'front page',
      'Products',
@@ -6,6 +7,7 @@ const ArrNav = [
      'Contact us' 
      ];
 
+//We use map method cuz our components have to special key.
 const Nav = () => {
      return (
           <div className="navbar">

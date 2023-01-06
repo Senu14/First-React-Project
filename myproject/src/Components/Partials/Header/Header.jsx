@@ -1,11 +1,11 @@
-import { Nav } from "../Nav/Nav";
+// We return our components under return (
 const Header = props => {
      return (
           <header>
             <h1>{props.PageTitle}</h1>
-            <nav className="headerNav">
-               <Nav />
-            </nav>         
+
+            {/* <nav className="headerNav"> */}
+                    
           </header>
      );
 };

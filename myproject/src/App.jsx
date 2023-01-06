@@ -1,7 +1,9 @@
 import "./App.scss";
 import { Header } from  "./Components/Partials/Header/Header";
 import { Main } from  "./Components/Partials/Main/Main";
+import { Nav } from "./Components/Partials/Nav/Nav";
 import { Footer } from "./Components/Partials/Footer/Footer";
+
 import React from "react";
 <link rel="stylesheet" href="./App.css" />
 
@@ -15,7 +17,8 @@ function App() {
   <span class="button-text">Practice to Perfect</span>
 </button>
       <Header PageTitle="" />
-      <Main />,
+      <Main />
+      <Nav />
        
       <Footer />
     </div>

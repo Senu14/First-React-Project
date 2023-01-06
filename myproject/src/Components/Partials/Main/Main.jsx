@@ -1,3 +1,4 @@
+// We return our main<p> components
 const Main = () => {
      return (
           <main>
