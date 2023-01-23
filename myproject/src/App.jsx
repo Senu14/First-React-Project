@@ -6,7 +6,8 @@ import { Footer } from "./Components/Partials/Footer/Footer";
 import { BrowserRouter } from 'react-router-dom'
 import Navigation from "./Components/Partials/Navigation/navigation";
 import CustomRouter from "./Components/App/CustomRouter/CustoRouter";
-import { Greeting } from "./Components/App/pages/Greeting";
+import  Greeting  from "./Components/App/pages/Greeting";
+import  Talle  from "./Components/App/pages/Talle";
 <link rel="stylesheet" href="./App.css" />
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Header PageTitle="" />
       <Navigation />
       <Greeting />
+      <Talle />
       <main>
         <CustomRouter />
       </main>
