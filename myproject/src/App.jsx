@@ -8,6 +8,7 @@ import Navigation from "./Components/Partials/Navigation/navigation";
 import CustomRouter from "./Components/App/CustomRouter/CustoRouter";
 import  Greeting  from "./Components/App/pages/Greeting";
 import  Talle  from "./Components/App/pages/Talle";
+import Kontaktformular from "./Components/App/pages/Kontaktformular";
 <link rel="stylesheet" href="./App.css" />
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Navigation />
       <Greeting />
       <Talle />
+      <Kontaktformular />
       <main>
         <CustomRouter />
       </main>
