@@ -4,6 +4,7 @@ import About from '../pages/About'
 import Product from'../pages/Product'
 import Jobs from '../pages/Jobs'
 import Contact from '../pages/About'
+import FormElements from "../pages/FormElements";
 
 const CustomRouter=  () => {
   return (
@@ -13,6 +14,7 @@ const CustomRouter=  () => {
      <Route path="/product" element={<Product />} />
      <Route path="/jobs" element={<Jobs />} />
      <Route path="/contact" element={<Contact />} />
+     <Route path="/FormElements" element={<FormElements />} />
    </Routes>
   )
 }

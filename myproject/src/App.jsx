@@ -6,9 +6,7 @@ import { Footer } from "./Components/Partials/Footer/Footer";
 import { BrowserRouter } from 'react-router-dom'
 import Navigation from "./Components/Partials/Navigation/navigation";
 import CustomRouter from "./Components/App/CustomRouter/CustoRouter";
-import  Greeting  from "./Components/App/pages/Greeting";
-import  Talle  from "./Components/App/pages/Talle";
-import Kontaktformular from "./Components/App/pages/Kontaktformular";
+import FormElements from "./Components/App/pages/FormElements";
 <link rel="stylesheet" href="./App.css" />
 
 function App() {
@@ -23,9 +21,8 @@ function App() {
 </button>
       <Header PageTitle="" />
       <Navigation />
-      <Greeting />
-      <Talle />
-      <Kontaktformular />
+      
+      <FormElements />
       <main>
         <CustomRouter />
       </main>
